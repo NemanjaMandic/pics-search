@@ -1,9 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import SearchBar from './SearchBar';
+const App = () => {
 
-export default const App = () => {
+  return (
+    <div>
+  <p>Zdravo aplikacijoooo</p>
 
-  return <div>Zdravo aplikacijoooo</div>
+  <SearchBar />
+  </div>
+)
 };
 
- 
+export default App;
